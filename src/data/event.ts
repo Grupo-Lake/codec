@@ -29,7 +29,7 @@ export const days: EventDay[] = [
     tip: "Espaço cedido pela coordenação da Extensão CEU Quinta do Sol.",
     map: "https://www.google.com/maps/search/?api=1&query=CEU+Quinta+do+Sol+Rua+Otto+Cordes+S%C3%A3o+Paulo",
     embed:
-      "https://maps.google.com/maps?q=CEU%20Quinta%20do%20Sol%2C%20Rua%20Otto%20Cordes%2C%20S%C3%A3o%20Paulo&z=15&output=embed",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.9251306981823!2d-46.49882432379004!3d-23.499206059313302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce605fda4adbd3%3A0x5eb3e1ed97434841!2sCEU%20QUINTA%20DO%20SOL!5e0!3m2!1sen!2sbr!4v1790712517084!5m2!1sen!2sbr",
     flyer: "/convites/convite-05-10.jpeg",
     start: "2026-10-05T18:30:00-03:00",
     end: "2026-10-05T21:00:00-03:00",

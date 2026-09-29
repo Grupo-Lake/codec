@@ -22,7 +22,7 @@ export function Locations() {
                 title={`Mapa: ${d.place}`}
                 src={d.embed}
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerPolicy="strict-origin-when-cross-origin"
                 className="block aspect-[16/10] w-full border-0 bg-line-soft grayscale-[.5]"
               />
               <div className="flex flex-col gap-[5px] px-[26px] pt-6 pb-7">
