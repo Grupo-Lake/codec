@@ -6,10 +6,23 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="overflow-hidden bg-brand-blue px-[22px] pt-[clamp(56px,9vw,104px)] text-center text-white"
+      className="relative isolate overflow-hidden bg-brand-navy px-[22px] pt-[clamp(56px,9vw,104px)] text-center text-white"
     >
-      <p className="mb-4 inline-flex items-center gap-2.5 text-[clamp(14px,1.5vw,17px)] font-semibold text-brand-navy">
-        <span className="rounded-md bg-brand-yellow px-2.5 py-1">2ª edição</span>
+      {/* Foto de treino em P&B sob uma camada marinho: fundo sóbrio, sem azul vivo */}
+      <Image
+        src="/lp/foto-hero.webp"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="-z-20 object-cover object-[center_35%]"
+      />
+      <div aria-hidden className="absolute inset-0 -z-10 bg-brand-navy/80" />
+
+      <p className="mb-4 inline-flex items-center gap-2.5 text-[clamp(14px,1.5vw,17px)] font-semibold text-white">
+        <span className="rounded-md bg-brand-yellow px-2.5 py-1 text-brand-navy">
+          2ª edição
+        </span>
         05 e 08 de outubro de 2026 · Itaquera, SP
       </p>
       <h1 className="mx-auto max-w-[1000px] text-[clamp(42px,8vw,96px)] leading-[1.02] font-extrabold tracking-[-0.035em] text-balance">
@@ -17,7 +30,7 @@ export function Hero() {
         <span className="block">Inclusão.</span>
         <span className="block">Acessibilidade.</span>
       </h1>
-      <p className="mx-auto mt-6 max-w-[660px] text-[clamp(18px,2.1vw,24px)] leading-[1.35] font-medium tracking-[-0.01em] text-brand-navy text-pretty">
+      <p className="mx-auto mt-6 max-w-[660px] text-[clamp(18px,2.1vw,24px)] leading-[1.35] font-medium tracking-[-0.01em] text-white/85 text-pretty">
         Congresso de Desenvolvimento nos Esportes de Contato. Duas noites de
         palestras, em duas unidades da Etec — e seu ingresso é um brinquedo.
       </p>
@@ -30,13 +43,12 @@ export function Hero() {
 
       <Countdown />
 
-      <div className="mx-auto mt-[clamp(40px,6vw,64px)] max-w-[1180px] overflow-hidden rounded-t-[28px] bg-[#2b86ba]">
+      <div className="mx-auto mt-[clamp(40px,6vw,64px)] max-w-[1180px] overflow-hidden rounded-t-[28px] bg-navy-card">
         <Image
           src="/bg-codec.webp"
           alt="Luta de karatê em tatame azul e vermelho"
           width={1180}
           height={516}
-          priority
           sizes="(min-width: 1220px) 1180px, 100vw"
           className="block aspect-[16/7] w-full object-cover object-[center_40%]"
         />

@@ -52,13 +52,13 @@ export function Countdown() {
             <span className="text-[clamp(34px,5vw,56px)] font-bold tracking-[-0.03em] tabular-nums">
               {i.v}
             </span>
-            <span className="text-xs font-semibold tracking-[0.08em] text-brand-navy uppercase">
+            <span className="text-xs font-semibold tracking-[0.08em] text-navy-muted uppercase">
               {i.l}
             </span>
           </div>
         ))}
       </div>
-      <span className="min-h-5 text-[13px] text-brand-navy">{c?.label}</span>
+      <span className="min-h-5 text-[13px] text-navy-muted">{c?.label}</span>
     </div>
   );
 }
