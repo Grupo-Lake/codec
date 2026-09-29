@@ -1,0 +1,404 @@
+- generic [active] [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#top"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "2º CODEC" [ref=e5] [cursor=pointer]:
+        - /url: "#top"
+      - navigation "Principal" [ref=e7]:
+        - link "Datas" [ref=e8] [cursor=pointer]:
+          - /url: "#datas"
+        - link "Sobre" [ref=e9] [cursor=pointer]:
+          - /url: "#sobre"
+        - link "Programação" [ref=e10] [cursor=pointer]:
+          - /url: "#programacao"
+        - link "Ação solidária" [ref=e11] [cursor=pointer]:
+          - /url: "#brinquedo"
+        - link "Organização" [ref=e12] [cursor=pointer]:
+          - /url: "#organizadores"
+        - link "Locais" [ref=e13] [cursor=pointer]:
+          - /url: "#local"
+        - link "Parceiros" [ref=e14] [cursor=pointer]:
+          - /url: "#apoiadores"
+        - link "Dúvidas" [ref=e15] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Inscrever-se" [ref=e16] [cursor=pointer]:
+          - /url: "#inscricao"
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - paragraph [ref=e20]:
+        - generic [ref=e21]: 2ª edição
+        - text: 05 e 08 de outubro de 2026 · Itaquera, SP
+      - heading "Cidadania. Inclusão. Acessibilidade." [level=1] [ref=e22]:
+        - generic [ref=e23]: Cidadania.
+        - generic [ref=e24]: Inclusão.
+        - generic [ref=e25]: Acessibilidade.
+      - paragraph [ref=e26]: Congresso de Desenvolvimento nos Esportes de Contato. Duas noites de palestras, em duas unidades da Etec — e seu ingresso é um brinquedo.
+      - generic [ref=e27]:
+        - link "Inscreva-se grátis" [ref=e28] [cursor=pointer]:
+          - /url: "#inscricao"
+        - link "Ver os dois dias ›" [ref=e29] [cursor=pointer]:
+          - /url: "#datas"
+      - generic [ref=e30]:
+        - timer "Contagem regressiva para o evento" [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: "06"
+            - generic [ref=e34]: dias
+          - generic [ref=e35]:
+            - generic [ref=e36]: "01"
+            - generic [ref=e37]: horas
+          - generic [ref=e38]:
+            - generic [ref=e39]: "44"
+            - generic [ref=e40]: min
+          - generic [ref=e41]:
+            - generic [ref=e42]: "16"
+            - generic [ref=e43]: seg
+        - generic [ref=e44]: até a 1ª noite · 05/10, CEU Quinta do Sol
+      - img "Luta de karatê em tatame azul e vermelho" [ref=e46]
+    - generic [ref=e48]:
+      - paragraph [ref=e49]: Duas noites, dois endereços
+      - heading "Escolha a sua noite. Ou venha nas duas." [level=2] [ref=e50]
+      - generic [ref=e51]:
+        - article [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - generic [ref=e55]: 1ª noite
+              - generic [ref=e56]: "05"
+              - generic [ref=e57]: outubro · segunda
+            - generic [ref=e58]: 18h30–21h
+          - generic [ref=e59]:
+            - generic [ref=e60]: Extensão CEU Quinta do Sol
+            - generic [ref=e61]: Etec Prof. Aprígio Gonzaga · Sala do Curso EAD
+            - generic [ref=e62]: Rua Otto Cordes — Parque Cisper, São Paulo/SP · CEP 03819-160
+          - generic [ref=e63]:
+            - link "Como chegar ›" [ref=e64] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=CEU+Quinta+do+Sol+Rua+Otto+Cordes+S%C3%A3o+Paulo
+            - link "Baixar convite ›" [ref=e65] [cursor=pointer]:
+              - /url: /convites/convite-05-10.jpeg
+        - article [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]: 2ª noite
+              - generic [ref=e70]: "08"
+              - generic [ref=e71]: outubro · quinta
+            - generic [ref=e72]: 18h30–21h
+          - generic [ref=e73]:
+            - generic [ref=e74]: Etec Itaquera II
+            - generic [ref=e75]: Auditório
+            - generic [ref=e76]: Av. Miguel Ignácio Curi, s/nº — Vila Carmosina, São Paulo/SP · CEP 08595-005
+          - generic [ref=e77]:
+            - link "Como chegar ›" [ref=e78] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=Etec+Itaquera+II
+            - link "Baixar convite ›" [ref=e79] [cursor=pointer]:
+              - /url: /convites/convite-08-10.jpeg
+    - generic [ref=e81]:
+      - paragraph [ref=e82]: Sobre o CODEC
+      - heading "Pelo segundo ano, o tatame vira sala de aula." [level=2] [ref=e83]
+      - paragraph [ref=e84]: O CODEC nasceu para promover inclusão, esporte e responsabilidade social. Profissionais e especialistas apresentam suas pesquisas e experiências — e, nesta edição, em parceria com a Etec, os estudantes participam da construção do evento.
+      - generic [ref=e85]:
+        - img "Turma de karatê em treino" [ref=e87]
+        - img "Sensei e aluno em kihon" [ref=e89]
+        - img "Aluna em treino" [ref=e91]
+      - paragraph [ref=e92]: Treinos da OPAM · Nin do Ryu.
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]: "01"
+          - heading "Formação" [level=3] [ref=e96]
+          - paragraph [ref=e97]: Aperfeiçoamento, atualização e troca de conhecimento sobre os esportes de contato.
+        - generic [ref=e98]:
+          - generic [ref=e99]: "02"
+          - heading "Inclusão" [level=3] [ref=e100]
+          - paragraph [ref=e101]: Artes marciais como caminho de inclusão, para pessoas com e sem deficiência.
+        - generic [ref=e102]:
+          - generic [ref=e103]: "03"
+          - heading "Cidadania" [level=3] [ref=e104]
+          - paragraph [ref=e105]: Envolver os jovens estudantes na formação de cidadãos mais conscientes e engajados.
+        - generic [ref=e106]:
+          - generic [ref=e107]: "04"
+          - heading "Pesquisa e prática" [level=3] [ref=e108]
+          - paragraph [ref=e109]: Profissionais apresentam pesquisas e experiências de acessibilidade e empoderamento.
+        - generic [ref=e110]:
+          - generic [ref=e111]: "05"
+          - heading "Responsabilidade social" [level=3] [ref=e112]
+          - paragraph [ref=e113]: Cada ingresso vira um brinquedo doado a uma criança da região.
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - paragraph [ref=e117]: Ação solidária
+        - heading "Sua entrada é um brinquedo." [level=2] [ref=e118]
+        - paragraph [ref=e119]: Traga um brinquedo novo ou usado em bom estado. Tudo o que for arrecadado vai para crianças em situação de vulnerabilidade da região — no Dia das Crianças e no Natal.
+        - list [ref=e120]:
+          - listitem [ref=e121]:
+            - generic [aria-hidden] [ref=e122]: "1"
+            - generic [ref=e123]:
+              - generic [ref=e124]: Inscreva-se
+              - generic [ref=e125]: Gratuito, pelo site do evento.
+          - listitem [ref=e126]:
+            - generic [aria-hidden] [ref=e127]: "2"
+            - generic [ref=e128]:
+              - generic [ref=e129]: Separe um brinquedo
+              - generic [ref=e130]: Novo ou usado em bom estado.
+          - listitem [ref=e131]:
+            - generic [aria-hidden] [ref=e132]: "3"
+            - generic [ref=e133]:
+              - generic [ref=e134]: Entregue na recepção
+              - generic [ref=e135]: A partir das 18h30, em qualquer uma das noites.
+      - generic [ref=e136]:
+        - img "Convite da noite de 08/10" [ref=e137]
+        - img "Convite da noite de 05/10" [ref=e138]
+    - generic [ref=e140]:
+      - generic [ref=e141]:
+        - paragraph [ref=e142]: Programação
+        - heading "Das 18h30 às 21h." [level=2] [ref=e143]:
+          - generic [ref=e144]: Das 18h30
+          - generic [ref=e145]: às 21h.
+        - paragraph [ref=e146]: A mesma estrutura nas duas noites. Palestras sobre pesquisa, inclusão, esporte e responsabilidade social.
+        - paragraph [ref=e147]: Palestrantes de 2026 em breve.
+      - list [ref=e148]:
+        - listitem [ref=e149]:
+          - generic [ref=e150]: 18h30
+          - generic [ref=e151]:
+            - generic [ref=e152]: Recepção
+            - generic [ref=e153]: Credenciamento e entrega dos brinquedos
+        - listitem [ref=e154]:
+          - generic [ref=e155]: 19h00
+          - generic [ref=e156]:
+            - generic [ref=e157]: Abertura oficial
+            - generic [ref=e158]: Boas-vindas da OPAM e da Etec
+        - listitem [ref=e159]:
+          - generic [ref=e160]: 19h15
+          - generic [ref=e161]:
+            - generic [ref=e162]: Palestras
+            - generic [ref=e163]: Pesquisa, inclusão, esporte e responsabilidade social
+        - listitem [ref=e164]:
+          - generic [ref=e165]: 21h00
+          - generic [ref=e166]:
+            - generic [ref=e167]: Encerramento
+            - generic [ref=e168]: Homenagens e considerações finais
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - paragraph [ref=e171]: Quem já passou pelo CODEC
+        - heading "Palestrantes da 1ª edição." [level=2] [ref=e172]
+      - generic "Palestrantes da 1ª edição" [ref=e173]:
+        - article [ref=e174]:
+          - img "Sensei Herta Martins" [ref=e175]
+          - generic [ref=e176]:
+            - heading "Kobudo Educacional" [level=3] [ref=e177]
+            - generic [ref=e178]:
+              - generic [ref=e179]: Sensei Herta Martins
+              - generic [ref=e180]: Presidente do Projeto Futsuro
+        - article [ref=e181]:
+          - img "Vitória Regia" [ref=e182]
+          - generic [ref=e183]:
+            - heading "Artes Marciais e Inclusão Social" [level=3] [ref=e184]
+            - generic [ref=e185]:
+              - generic [ref=e186]: Vitória Regia
+              - generic [ref=e187]: Especialista em Deficiência Intelectual e Autismo · CEFAI São Mateus
+        - article [ref=e188]:
+          - img "Adriana da Silva Costa" [ref=e189]
+          - generic [ref=e190]:
+            - heading "Metodologias Inclusivas nas Artes Marciais" [level=3] [ref=e191]
+            - generic [ref=e192]:
+              - generic [ref=e193]: Adriana da Silva Costa
+              - generic [ref=e194]: Especialista em Deficiência Intelectual e Autismo · CEFAI São Mateus
+      - generic [ref=e195]:
+        - generic [ref=e196]:
+          - button "Palestrante 1" [ref=e197] [cursor=pointer]
+          - button "Palestrante 2" [ref=e198] [cursor=pointer]
+          - button "Palestrante 3" [ref=e199] [cursor=pointer]
+        - generic [ref=e200]:
+          - button "Anterior" [disabled] [ref=e201] [cursor=pointer]: ‹
+          - button "Próximo" [ref=e202] [cursor=pointer]: ›
+    - generic [ref=e204]:
+      - paragraph [ref=e205]: Organização
+      - heading "Feito por educadores que vivem o tatame." [level=2] [ref=e206]
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - img "Prof. Me. Sidney Alves" [ref=e209]
+          - generic [ref=e210]:
+            - generic [ref=e211]: Organizador
+            - generic [ref=e212]: Prof. Me. Sidney Alves
+            - generic [ref=e213]: Mestre em Educação, assessor da OPAM e docente da Etec Itaquera II.
+        - generic [ref=e214]:
+          - img "Prof. Bruno Garcia" [ref=e215]
+          - generic [ref=e216]:
+            - generic [ref=e217]: Organizador · Fundador
+            - generic [ref=e218]: Prof. Bruno Garcia
+            - generic [ref=e219]: Diretor da OPAM, professor de Karatê e Judô e profissional de Educação Física.
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - img "OPAM — Organização Paulista de Artes Marciais, Nin do Ryu" [ref=e222]
+          - generic [ref=e223]:
+            - generic [ref=e224]: Realização
+            - generic [ref=e225]: OPAM — Organização Paulista de Artes Marciais
+            - generic [ref=e226]: Fundada em 2005 em Itaquera, antes Associação Karatê Nin do Ryu, sob a responsabilidade do Sensei Bruno Garcia.
+            - link "Conheça a OPAM ›" [ref=e227] [cursor=pointer]:
+              - /url: https://www.karateopam.com.br/
+        - img "Sensei Bruno Garcia" [ref=e229]
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - generic [ref=e233]:
+          - heading "Missão" [level=2] [ref=e234]
+          - paragraph [ref=e235]: Artes marciais verdadeiramente acessíveis a todos — o esporte como ferramenta de inclusão e transformação social.
+        - generic [ref=e236]:
+          - heading "Visão" [level=2] [ref=e237]
+          - paragraph [ref=e238]: Ser referência na promoção da inclusão e do protagonismo por meio das artes marciais, integrando esporte, cultura, acessibilidade e empoderamento.
+      - generic [ref=e239]:
+        - heading "Valores" [level=2] [ref=e240]
+        - list [ref=e241]:
+          - listitem [ref=e242]: Respeito
+          - listitem [ref=e243]: Inclusão
+          - listitem [ref=e244]: Superação
+          - listitem [ref=e245]: Igualdade
+          - listitem [ref=e246]: Disciplina
+          - listitem [ref=e247]: Tradição com inovação
+          - listitem [ref=e248]: Acessibilidade
+    - generic [ref=e250]:
+      - paragraph [ref=e251]: Locais
+      - heading "Dois endereços na Zona Leste." [level=2] [ref=e252]
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - iframe [ref=e255]
+          - generic [ref=e256]:
+            - generic [ref=e257]: 1ª noite · 05/10
+            - generic [ref=e258]: Extensão CEU Quinta do Sol
+            - generic [ref=e259]: Rua Otto Cordes — Parque Cisper, São Paulo/SP · CEP 03819-160
+            - generic [ref=e260]: Espaço cedido pela coordenação da Extensão CEU Quinta do Sol.
+        - generic [ref=e261]:
+          - iframe [ref=e262]
+          - generic [ref=e263]:
+            - generic [ref=e264]: 2ª noite · 08/10
+            - generic [ref=e265]: Etec Itaquera II
+            - generic [ref=e266]: Av. Miguel Ignácio Curi, s/nº — Vila Carmosina, São Paulo/SP · CEP 08595-005
+            - generic [ref=e267]: Perto do Metrô Itaquera (Linha 3-Vermelha). Estacionamento com vagas limitadas.
+    - generic [ref=e269]:
+      - paragraph [ref=e270]: Parceiros
+      - heading "Quem acredita no esporte como transformação." [level=2] [ref=e271]
+      - generic [ref=e272]:
+        - generic [ref=e273]:
+          - generic [ref=e274]: Centro Olímpico do Conjunto José Bonifácio
+          - generic [ref=e275]: Direção de Márcio de Oliveira
+        - generic [ref=e276]:
+          - generic [ref=e277]: Etec Itaquera II
+          - generic [ref=e278]: Direção da Profa. Me. Tarsila Santiago
+        - generic [ref=e279]:
+          - generic [ref=e280]: Extensão CEU Quinta do Sol
+          - generic [ref=e281]: Coordenação de Orlando
+      - heading "Apoiadores culturais da 1ª edição" [level=3] [ref=e282]
+      - list [ref=e283]:
+        - listitem [ref=e284]:
+          - generic [ref=e285]: Sublita Personalizados
+        - listitem [ref=e286]:
+          - generic [ref=e287]: Centro Olímpico
+        - listitem [ref=e288]:
+          - generic [ref=e289]: Fato Paulista
+        - listitem [ref=e290]:
+          - generic [ref=e291]: ETEC Itaquera II
+        - listitem [ref=e292]:
+          - generic [ref=e293]: Gabriel Abreu
+        - listitem [ref=e294]:
+          - generic [ref=e295]: Renata Abreu
+        - listitem [ref=e296]:
+          - generic [ref=e297]: Action Figure Collection
+        - listitem [ref=e298]:
+          - generic [ref=e299]: Ita Chaves
+        - listitem [ref=e300]:
+          - generic [ref=e301]: Giacco Becas
+        - listitem [ref=e302]:
+          - generic [ref=e303]: Compra Fácil Supermercados
+        - listitem [ref=e304]:
+          - generic [ref=e305]: Microlins Artur Alvim
+        - listitem [ref=e306]:
+          - generic [ref=e307]: Obra Social Dom Bosco
+        - listitem [ref=e308]:
+          - generic [ref=e309]: Luis Bellu Fotografias
+        - listitem [ref=e310]:
+          - generic [ref=e311]: Troféus e Medalhas Globo
+      - generic [ref=e312]:
+        - generic [ref=e313]:
+          - heading "Seja um apoiador." [level=3] [ref=e314]
+          - paragraph [ref=e315]: Associe sua marca à educação, à inclusão e à formação de cidadãos pelo esporte. Fale direto com o Sensei Bruno.
+          - link "WhatsApp (11) 96939-2260" [ref=e316] [cursor=pointer]:
+            - /url: https://wa.me/5511969392260
+        - list [ref=e317]:
+          - listitem [ref=e318]:
+            - generic [ref=e319]: Parceria
+            - generic [ref=e320]: Vínculo com a comunidade das artes marciais e com a Etec.
+          - listitem [ref=e321]:
+            - generic [ref=e322]: Visibilidade
+            - generic [ref=e323]: Sua marca no site, nas duas noites e na comunicação.
+          - listitem [ref=e324]:
+            - generic [ref=e325]: Impacto social
+            - generic [ref=e326]: Apoio direto a educação, inclusão e à ação solidária.
+    - generic [ref=e328]:
+      - heading "Dúvidas frequentes." [level=2] [ref=e329]
+      - generic [ref=e330]:
+        - generic [ref=e331]:
+          - heading [level=3] [ref=e332]:
+            - button "Quanto custa participar?" [expanded] [ref=e333] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e335]: −
+          - paragraph [ref=e336]: Nada. A inscrição é gratuita — o ingresso é um brinquedo, entregue na entrada.
+        - heading [level=3] [ref=e338]:
+          - button "Posso ir nas duas noites?" [ref=e339] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e341]: +
+        - heading [level=3] [ref=e343]:
+          - button "Que tipo de brinquedo posso levar?" [ref=e344] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e346]: +
+        - heading [level=3] [ref=e348]:
+          - button "Quem pode participar?" [ref=e349] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e351]: +
+        - heading [level=3] [ref=e353]:
+          - button "Que horas devo chegar?" [ref=e354] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e356]: +
+        - heading [level=3] [ref=e358]:
+          - button "Como falo com a organização?" [ref=e359] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e361]: +
+    - generic [ref=e363]:
+      - heading "Garanta sua vaga." [level=2] [ref=e364]
+      - paragraph [ref=e365]: Inscrição gratuita. No dia, traga um brinquedo.
+      - generic [ref=e366]:
+        - link "Inscrever-se" [ref=e367] [cursor=pointer]:
+          - /url: https://www.even3.com.br/codec-652594
+        - link "Tirar dúvidas no WhatsApp ›" [ref=e368] [cursor=pointer]:
+          - /url: https://wa.me/5511969392260
+      - heading "Aberto à comunidade" [level=3] [ref=e369]
+      - list [ref=e370]:
+        - listitem [ref=e371]: Estudantes da Etec
+        - listitem [ref=e372]: Praticantes de artes marciais
+        - listitem [ref=e373]: Profissionais de Educação Física
+        - listitem [ref=e374]: Professores e pesquisadores
+        - listitem [ref=e375]: Familiares
+        - listitem [ref=e376]: Comunidade em geral
+  - contentinfo [ref=e377]:
+    - generic [ref=e378]:
+      - generic [ref=e379]:
+        - generic [ref=e380]:
+          - generic [ref=e381]: 2º CODEC · 2026
+          - generic [ref=e382]: Congresso de Desenvolvimento nos Esportes de Contato
+        - generic [ref=e383]:
+          - generic [ref=e384]: Evento
+          - link "Datas" [ref=e385] [cursor=pointer]:
+            - /url: "#datas"
+          - link "Programação" [ref=e386] [cursor=pointer]:
+            - /url: "#programacao"
+          - link "Locais" [ref=e387] [cursor=pointer]:
+            - /url: "#local"
+        - generic [ref=e388]:
+          - generic [ref=e389]: Participar
+          - link "Inscrição" [ref=e390] [cursor=pointer]:
+            - /url: "#inscricao"
+          - link "Ação solidária" [ref=e391] [cursor=pointer]:
+            - /url: "#brinquedo"
+          - link "Dúvidas" [ref=e392] [cursor=pointer]:
+            - /url: "#faq"
+        - generic [ref=e393]:
+          - generic [ref=e394]: Contato
+          - generic [ref=e395]: Sensei Bruno Garcia
+          - link "WhatsApp (11) 96939-2260" [ref=e396] [cursor=pointer]:
+            - /url: https://wa.me/5511969392260
+      - generic [ref=e397]:
+        - generic [ref=e398]: © 2026 CODEC. Realização OPAM — Organização Paulista de Artes Marciais · Nin do Ryu. Em parceria com a Etec.
+        - generic [ref=e399]:
+          - text: Powered by
+          - link "HASTYDEV" [ref=e400] [cursor=pointer]:
+            - /url: https://hastydev.com.br
+  - alert [ref=e401]

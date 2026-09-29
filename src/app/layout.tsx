@@ -1,68 +1,50 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { EVENT_FULL_NAME, SITE_URL } from "@/lib/config";
 
-const inter = Inter({ 
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
+const title = `2º CODEC 2026 – ${EVENT_FULL_NAME}`;
+const description =
+  "Cidadania, inclusão e acessibilidade. Duas noites de palestras, 05 e 08 de outubro de 2026, em Itaquera, São Paulo. Inscrição gratuita: seu ingresso é um brinquedo.";
 
 export const metadata: Metadata = {
-  title: "CODEC 2025 - Congresso de Desenvolvimento nos Esportes de Contato",
-  description:
-    "Artes Marciais: Tradição, Corpo e Mente em Harmonia. 14 de Novembro de 2025, às 19h, ETEC Itaquera II, São Paulo/SP. Evento gratuito com responsabilidade social - traga um brinquedo como ingresso.",
+  metadataBase: new URL(SITE_URL),
+  title,
+  description,
   keywords: [
+    "CODEC",
     "artes marciais",
     "esportes de contato",
     "congresso",
-    "educação física",
-    "inclusão social",
-    "São Paulo",
+    "inclusão",
+    "acessibilidade",
+    "Itaquera",
     "OPAM",
-    "responsabilidade social",
+    "Etec",
   ],
   authors: [{ name: "OPAM - Organização Paulista de Artes Marciais" }],
-  creator: "OPAM - NIN DO RYU",
-  icons: {
-    icon: '/logo.svg',
-    shortcut: '/logo.svg',
-    apple: '/logo.svg',
-  },
+  creator: "OPAM - Nin do Ryu",
+  alternates: { canonical: "/" },
+  icons: { icon: "/logo.svg", apple: "/logo.svg" },
   openGraph: {
-    title: "CODEC 2025 - Congresso de Desenvolvimento nos Esportes de Contato",
-    description: "Artes Marciais: Tradição, Corpo e Mente em Harmonia",
+    title,
+    description,
     type: "website",
     locale: "pt_BR",
-    images: [
-      {
-        url: '/logo.svg',
-        width: 1200,
-        height: 630,
-        alt: 'CODEC 2025 Logo',
-      },
-    ],
+    siteName: "2º CODEC",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "CODEC 2025 - Congresso de Desenvolvimento nos Esportes de Contato",
-    description: "Artes Marciais: Tradição, Corpo e Mente em Harmonia",
-    images: ['/logo.svg'],
-  },
+  twitter: { card: "summary_large_image", title, description },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#3499d1",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-BR">
-      <body
-        className={`${inter.variable} font-sans antialiased bg-white text-gray-900`}
-      >
-        {children}
-      </body>
+      <body className="font-sans">{children}</body>
     </html>
   );
 }
