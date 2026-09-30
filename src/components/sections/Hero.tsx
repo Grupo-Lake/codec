@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Countdown } from "@/components/Countdown";
+import { REGISTRATION_URL } from "@/lib/config";
 import { PillLink } from "@/components/ui/primitives";
 
 export function Hero() {
@@ -35,7 +36,13 @@ export function Hero() {
         palestras, em duas unidades da Etec — e seu ingresso é um brinquedo.
       </p>
       <div className="mt-8 flex flex-wrap items-center justify-center gap-7">
-        <PillLink href="#inscricao">Inscreva-se grátis</PillLink>
+        <PillLink
+          href={REGISTRATION_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Inscreva-se grátis
+        </PillLink>
         <a href="#datas" className="text-[17px] font-medium text-white">
           Ver os dois dias ›
         </a>

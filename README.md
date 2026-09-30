@@ -4,7 +4,7 @@ Site oficial do **2º CODEC** (Congresso de Desenvolvimento nos Esportes de Cont
 
 - **Datas:** 05/10/2026 (CEU Quinta do Sol) e 08/10/2026 (Etec Itaquera II), das 18h30 às 21h
 - **Ingresso:** gratuito, com a doação de um brinquedo
-- **Inscrição:** https://www.even3.com.br/codec-652594
+- **Inscrição:** https://www.even3.com.br/2-congresso-codec-congresso-de-desenvolvimento-nos-esportes-de-contato-791146/
 
 ## Stack
 
