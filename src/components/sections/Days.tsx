@@ -1,4 +1,5 @@
 import { days } from "@/data/event";
+import { REGISTRATION_URL } from "@/lib/config";
 import {
   Container,
   Eyebrow,
@@ -50,8 +51,8 @@ export function Days() {
                 <ExternalLink href={d.map} className="text-link">
                   Como chegar ›
                 </ExternalLink>
-                <ExternalLink href={d.flyer} className="text-link">
-                  Baixar convite ›
+                <ExternalLink href={REGISTRATION_URL} className="text-link">
+                  Pegar convite ›
                 </ExternalLink>
               </div>
             </article>

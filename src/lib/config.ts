@@ -1,7 +1,7 @@
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://congressocodec.com.br";
 
-export const REGISTRATION_URL = "https://www.even3.com.br/codec-652594";
+export const REGISTRATION_URL = "https://www.even3.com.br/2-congresso-codec-congresso-de-desenvolvimento-nos-esportes-de-contato-791146/";
 export const WHATSAPP_URL = "https://wa.me/5511969392260";
 export const WHATSAPP_LABEL = "(11) 96939-2260";
 export const OPAM_URL = "https://www.karateopam.com.br/";

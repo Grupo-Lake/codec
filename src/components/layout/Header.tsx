@@ -53,14 +53,21 @@ export function Header() {
               {l.label}
             </a>
           ))}
-          <PillLink href="#inscricao" size="sm">
+          <PillLink
+            href={REGISTRATION_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            size="sm"
+          >
             Inscrever-se
           </PillLink>
         </nav>
 
         <div className="flex items-center gap-2.5 min-[900px]:hidden">
           <PillLink
-            href="#inscricao"
+            href={REGISTRATION_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="!px-3.5 !py-1.5 !text-[13px] !font-semibold"
           >
             Inscrever-se
