@@ -28,9 +28,14 @@ export function About() {
           participam da construção do evento.
         </p>
 
-        <div className="mt-[clamp(40px,5vw,56px)] grid min-h-[220px] grid-cols-[2fr_1fr_1fr] gap-3 aspect-[3/1]">
-          {photos.map((p) => (
-            <div key={p.src} className="relative overflow-hidden rounded-[22px]">
+        <div className="mt-[clamp(40px,5vw,56px)] grid grid-cols-2 gap-3 sm:aspect-[3/1] sm:min-h-[220px] sm:grid-cols-[2fr_1fr_1fr]">
+          {photos.map((p, i) => (
+            <div
+              key={p.src}
+              className={`relative aspect-square overflow-hidden rounded-[22px] sm:aspect-auto ${
+                i === 0 ? "col-span-2 aspect-[16/10] sm:col-span-1" : ""
+              }`}
+            >
               <Image
                 src={p.src}
                 alt={p.alt}
