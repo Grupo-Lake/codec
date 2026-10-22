@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { EVENT_FULL_NAME, WHATSAPP_LABEL, WHATSAPP_URL } from "@/lib/config";
 import { ExternalLink } from "@/components/ui/primitives";
 
@@ -19,15 +20,15 @@ export function Footer() {
           </div>
           <div className={col}>
             <span className={head}>Evento</span>
-            <a href="#datas" className={link}>Datas</a>
-            <a href="#programacao" className={link}>Programação</a>
-            <a href="#local" className={link}>Locais</a>
+            <Link href="/#fotos" className={link}>Como foi</Link>
+            <Link href="/#programacao" className={link}>Programação</Link>
+            <Link href="/#local" className={link}>Locais</Link>
           </div>
           <div className={col}>
-            <span className={head}>Participar</span>
-            <a href="#inscricao" className={link}>Inscrição</a>
-            <a href="#brinquedo" className={link}>Ação solidária</a>
-            <a href="#faq" className={link}>Dúvidas</a>
+            <span className={head}>Mais</span>
+            <a href="/galeria" className={link}>Galeria</a>
+            <Link href="/#brinquedo" className={link}>Ação solidária</Link>
+            <Link href="/#proxima-edicao" className={link}>Próxima edição</Link>
           </div>
           <div className={col}>
             <span className={head}>Contato</span>

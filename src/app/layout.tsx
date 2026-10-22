@@ -4,7 +4,7 @@ import { EVENT_FULL_NAME, SITE_URL } from "@/lib/config";
 
 const title = `2º CODEC 2026 – ${EVENT_FULL_NAME}`;
 const description =
-  "Cidadania, inclusão e acessibilidade. Duas noites de palestras, 05 e 08 de outubro de 2026, em Itaquera, São Paulo. Inscrição gratuita: seu ingresso é um brinquedo.";
+  "Cidadania, inclusão e acessibilidade. O 2º CODEC aconteceu em 05 e 08 de outubro de 2026, em Itaquera, São Paulo. Veja as fotos e o vídeo das duas noites.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { Countdown } from "@/components/Countdown";
-import { REGISTRATION_URL } from "@/lib/config";
 import { PillLink } from "@/components/ui/primitives";
 
 export function Hero() {
@@ -24,7 +22,7 @@ export function Hero() {
         <span className="rounded-md bg-brand-yellow px-2.5 py-1 text-brand-navy">
           2ª edição
         </span>
-        05 e 08 de outubro de 2026 · Itaquera, SP
+        Realizada em 05 e 08 de outubro de 2026 · Itaquera, SP
       </p>
       <h1 className="mx-auto max-w-[1000px] text-[clamp(42px,8vw,96px)] leading-[1.02] font-extrabold tracking-[-0.035em] text-balance">
         <span className="block">Cidadania.</span>
@@ -33,24 +31,17 @@ export function Hero() {
       </h1>
       <p className="mx-auto mt-6 max-w-[660px] text-[clamp(18px,2.1vw,24px)] leading-[1.35] font-medium tracking-[-0.01em] text-white/85 text-pretty">
         Congresso de Desenvolvimento nos Esportes de Contato. Duas noites de
-        palestras, em duas unidades da Etec — e seu ingresso é um brinquedo.
+        palestras, em duas unidades da Etec — e o ingresso foi um brinquedo.
+        Obrigado a todos que participaram.
       </p>
       <div className="mt-8 flex flex-wrap items-center justify-center gap-7">
-        <PillLink
-          href={REGISTRATION_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Inscreva-se grátis
-        </PillLink>
-        <a href="#datas" className="text-[17px] font-medium text-white">
-          Ver os dois dias ›
+        <PillLink href="/galeria">Ver a galeria</PillLink>
+        <a href="#fotos" className="text-[17px] font-medium text-white">
+          Como foi ›
         </a>
       </div>
 
-      <Countdown />
-
-      <div className="mx-auto mt-[clamp(40px,6vw,64px)] max-w-[1180px] overflow-hidden rounded-t-[28px] bg-navy-card">
+      <div className="mx-auto mt-[clamp(48px,7vw,72px)] max-w-[1180px] overflow-hidden rounded-t-[28px] bg-navy-card">
         <Image
           src="/bg-codec.webp"
           alt="Luta de karatê em tatame azul e vermelho"

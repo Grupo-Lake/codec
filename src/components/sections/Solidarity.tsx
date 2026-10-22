@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { steps } from "@/data/event";
 import { Container, Section } from "@/components/ui/primitives";
 
 export function Solidarity() {
@@ -9,34 +8,13 @@ export function Solidarity() {
         <div>
           <p className="mb-3 text-[17px] font-bold">Ação solidária</p>
           <h2 className="text-[clamp(34px,5.4vw,64px)] leading-[1.05] font-extrabold tracking-[-0.03em] text-balance">
-            Sua entrada é um brinquedo.
+            Sua entrada foi um brinquedo.
           </h2>
           <p className="mt-[22px] text-[clamp(17px,1.9vw,21px)] leading-[1.45] text-pretty">
-            Traga um brinquedo novo ou usado em bom estado. Tudo o que for
-            arrecadado vai para crianças em situação de vulnerabilidade da
-            região — no Dia das Crianças e no Natal.
+            Cada participante trouxe um brinquedo novo ou usado em bom estado.
+            Tudo o que foi arrecadado vai para crianças em situação de
+            vulnerabilidade da região — no Dia das Crianças e no Natal.
           </p>
-          <ol className="mt-9 flex flex-col">
-            {steps.map((s) => (
-              <li
-                key={s.n}
-                className="grid grid-cols-[44px_1fr] gap-4 border-t border-brand-navy/20 py-[18px]"
-              >
-                <span
-                  aria-hidden
-                  className="flex size-8 items-center justify-center rounded-full bg-brand-navy text-sm font-bold text-brand-yellow"
-                >
-                  {s.n}
-                </span>
-                <div className="flex flex-col gap-[3px]">
-                  <span className="text-[19px] font-bold tracking-[-0.01em]">
-                    {s.t}
-                  </span>
-                  <span className="text-[15px]">{s.d}</span>
-                </div>
-              </li>
-            ))}
-          </ol>
         </div>
 
         <div className="relative aspect-square w-full max-w-[520px] justify-self-center">
