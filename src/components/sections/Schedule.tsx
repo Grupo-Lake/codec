@@ -15,9 +15,6 @@ export function Schedule() {
             A mesma estrutura nas duas noites. Palestras sobre pesquisa,
             inclusão, esporte e responsabilidade social.
           </p>
-          <p className="mt-[18px] text-[15px] text-muted">
-            Palestrantes de 2026 em breve.
-          </p>
         </div>
         <ol className="flex flex-col gap-3">
           {schedule.map((s) => (

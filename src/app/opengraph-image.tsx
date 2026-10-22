@@ -32,7 +32,7 @@ export default function OpengraphImage() {
             borderRadius: 12,
           }}
         >
-          2ª edição · 05 e 08 de outubro de 2026
+          2ª edição · realizada em 05 e 08 de outubro de 2026
         </div>
         <div
           style={{
@@ -58,7 +58,7 @@ export default function OpengraphImage() {
           Congresso de Desenvolvimento nos Esportes de Contato
         </div>
         <div style={{ display: "flex", marginTop: 12, fontSize: 32, color: "#00263b" }}>
-          Seu ingresso é um brinquedo · Itaquera, SP
+          Obrigado a todos que participaram · Itaquera, SP
         </div>
       </div>
     ),

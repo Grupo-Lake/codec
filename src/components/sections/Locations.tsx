@@ -10,7 +10,7 @@ export function Locations() {
   return (
     <Section id="local" className="bg-surface">
       <Container>
-        <Eyebrow>Locais</Eyebrow>
+        <Eyebrow>Onde aconteceu</Eyebrow>
         <SectionTitle>Dois endereços na Zona Leste.</SectionTitle>
         <div className="mt-11 grid grid-cols-[repeat(auto-fit,minmax(min(100%,420px),1fr))] gap-5">
           {days.map((d) => (

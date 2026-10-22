@@ -61,12 +61,6 @@ export const objectives = [
   { n: "05", t: "Responsabilidade social", d: "Cada ingresso vira um brinquedo doado a uma criança da região." },
 ];
 
-export const steps = [
-  { n: "1", t: "Inscreva-se", d: "Gratuito, pelo site do evento." },
-  { n: "2", t: "Separe um brinquedo", d: "Novo ou usado em bom estado." },
-  { n: "3", t: "Entregue na recepção", d: "A partir das 18h30, em qualquer uma das noites." },
-];
-
 export const schedule = [
   { time: "18h30", t: "Recepção", d: "Credenciamento e entrega dos brinquedos" },
   { time: "19h00", t: "Abertura oficial", d: "Boas-vindas da OPAM e da Etec" },
@@ -94,22 +88,4 @@ export const perks = [
   { t: "Parceria", d: "Vínculo com a comunidade das artes marciais e com a Etec." },
   { t: "Visibilidade", d: "Sua marca no site, nas duas noites e na comunicação." },
   { t: "Impacto social", d: "Apoio direto a educação, inclusão e à ação solidária." },
-];
-
-export const audience = [
-  "Estudantes da Etec",
-  "Praticantes de artes marciais",
-  "Profissionais de Educação Física",
-  "Professores e pesquisadores",
-  "Familiares",
-  "Comunidade em geral",
-];
-
-export const faq = [
-  { q: "Quanto custa participar?", a: "Nada. A inscrição é gratuita — o ingresso é um brinquedo, entregue na entrada." },
-  { q: "Posso ir nas duas noites?", a: "Pode. Cada noite acontece em uma unidade: 05/10 na Extensão CEU Quinta do Sol e 08/10 na Etec Itaquera II." },
-  { q: "Que tipo de brinquedo posso levar?", a: "Novo ou usado em bom estado. Os brinquedos vão para crianças em situação de vulnerabilidade da região, no Dia das Crianças e no Natal." },
-  { q: "Quem pode participar?", a: "O evento é aberto à comunidade: estudantes da Etec, praticantes de artes marciais, profissionais de Educação Física, professores, pesquisadores, familiares e interessados no tema." },
-  { q: "Que horas devo chegar?", a: "A recepção começa às 18h30. A abertura oficial é às 19h e o encerramento, com homenagens, às 21h." },
-  { q: "Como falo com a organização?", a: "Pelo WhatsApp (11) 96939-2260, com o Sensei Bruno — para dúvidas, participação ou patrocínio." },
 ];

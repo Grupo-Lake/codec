@@ -1,19 +1,18 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
-import { REGISTRATION_URL } from "@/lib/config";
-import { ExternalLink, PillLink } from "@/components/ui/primitives";
+import { PillLink } from "@/components/ui/primitives";
 
 const links = [
-  { href: "#datas", label: "Datas" },
-  { href: "#sobre", label: "Sobre" },
-  { href: "#programacao", label: "Programação" },
-  { href: "#brinquedo", label: "Ação solidária" },
-  { href: "#organizadores", label: "Organização" },
-  { href: "#local", label: "Locais" },
-  { href: "#apoiadores", label: "Parceiros" },
-  { href: "#faq", label: "Dúvidas" },
+  { href: "/#fotos", label: "Fotos" },
+  { href: "/#sobre", label: "Sobre" },
+  { href: "/#programacao", label: "Programação" },
+  { href: "/#brinquedo", label: "Ação solidária" },
+  { href: "/#organizadores", label: "Organização" },
+  { href: "/#local", label: "Locais" },
+  { href: "/#apoiadores", label: "Parceiros" },
 ];
 
 export function Header() {
@@ -22,8 +21,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-black/8 bg-page/80 backdrop-blur-xl backdrop-saturate-[180%]">
       <div className="mx-auto flex h-[52px] max-w-[1080px] items-center justify-between gap-6 px-[22px]">
-        <a
-          href="#top"
+        <Link
+          href="/#top"
           className="flex items-center gap-2.5 text-ink no-underline"
           onClick={() => setOpen(false)}
         >
@@ -38,7 +37,7 @@ export function Header() {
           <span className="text-[19px] font-semibold tracking-[-0.01em]">
             2º CODEC
           </span>
-        </a>
+        </Link>
 
         <nav
           aria-label="Principal"
@@ -53,24 +52,17 @@ export function Header() {
               {l.label}
             </a>
           ))}
-          <PillLink
-            href={REGISTRATION_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            size="sm"
-          >
-            Inscrever-se
+          <PillLink href="/galeria" size="sm">
+            Galeria
           </PillLink>
         </nav>
 
         <div className="flex items-center gap-2.5 min-[900px]:hidden">
           <PillLink
-            href={REGISTRATION_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/galeria"
             className="!px-3.5 !py-1.5 !text-[13px] !font-semibold"
           >
-            Inscrever-se
+            Galeria
           </PillLink>
           <button
             type="button"
@@ -97,12 +89,9 @@ export function Header() {
               {l.label}
             </a>
           ))}
-          <ExternalLink
-            href={REGISTRATION_URL}
-            className="py-2.5 text-link no-underline"
-          >
-            Inscrição ›
-          </ExternalLink>
+          <a href="/galeria" className="py-2.5 text-link no-underline">
+            Galeria ›
+          </a>
         </nav>
       )}
     </header>

@@ -1,7 +1,6 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
-import { Days } from "@/components/sections/Days";
 import { About } from "@/components/sections/About";
 import { Solidarity } from "@/components/sections/Solidarity";
 import { Schedule } from "@/components/sections/Schedule";
@@ -10,15 +9,10 @@ import { Organization } from "@/components/sections/Organization";
 import { MissionVision } from "@/components/sections/MissionVision";
 import { Locations } from "@/components/sections/Locations";
 import { Partners } from "@/components/sections/Partners";
-import { Faq } from "@/components/sections/Faq";
-import { Register } from "@/components/sections/Register";
+import { Gallery } from "@/components/sections/Gallery";
+import { NextEdition } from "@/components/sections/NextEdition";
 import { days } from "@/data/event";
-import {
-  EVENT_FULL_NAME,
-  EVENT_NAME,
-  REGISTRATION_URL,
-  SITE_URL,
-} from "@/lib/config";
+import { EVENT_FULL_NAME, EVENT_NAME, SITE_URL } from "@/lib/config";
 
 const jsonLd = days.map((d) => ({
   "@context": "https://schema.org",
@@ -36,13 +30,6 @@ const jsonLd = days.map((d) => ({
   },
   image: `${SITE_URL}/opengraph-image`,
   isAccessibleForFree: true,
-  offers: {
-    "@type": "Offer",
-    price: 0,
-    priceCurrency: "BRL",
-    url: REGISTRATION_URL,
-    availability: "https://schema.org/InStock",
-  },
   organizer: {
     "@type": "Organization",
     name: "OPAM — Organização Paulista de Artes Marciais",
@@ -58,7 +45,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <Days />
+        <Gallery />
         <About />
         <Solidarity />
         <Schedule />
@@ -67,8 +54,7 @@ export default function Home() {
         <MissionVision />
         <Locations />
         <Partners />
-        <Faq />
-        <Register />
+        <NextEdition />
       </main>
       <Footer />
       <script

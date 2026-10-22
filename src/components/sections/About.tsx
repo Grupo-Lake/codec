@@ -19,13 +19,13 @@ export function About() {
       <Container>
         <Eyebrow>Sobre o CODEC</Eyebrow>
         <SectionTitle className="max-w-[860px]">
-          Pelo segundo ano, o tatame vira sala de aula.
+          Pelo segundo ano, o tatame virou sala de aula.
         </SectionTitle>
         <p className="mt-6 max-w-[700px] text-[clamp(17px,1.9vw,21px)] leading-[1.45] text-muted text-pretty">
           O CODEC nasceu para promover inclusão, esporte e responsabilidade
           social. Profissionais e especialistas apresentam suas pesquisas e
           experiências — e, nesta edição, em parceria com a Etec, os estudantes
-          participam da construção do evento.
+          participaram da construção do evento.
         </p>
 
         <div className="mt-[clamp(40px,5vw,56px)] grid grid-cols-2 gap-3 sm:aspect-[3/1] sm:min-h-[220px] sm:grid-cols-[2fr_1fr_1fr]">
