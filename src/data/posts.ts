@@ -42,7 +42,7 @@ const firstAidCourse: Post = {
   },
   body: [
     {
-      p: "O CODEC nasceu para fortalecer os esportes de contato, e isso inclui cuidar de quem pratica. É por isso que apoiamos o Curso de Primeiros Socorros para Atletas, realizado pela OPAM no sábado, 28 de novembro.",
+      p: "O CODEC nasceu para fortalecer os esportes de contato, e isso inclui cuidar de quem pratica. É por isso que apoiamos o Curso de Primeiros Socorros para Atletas, realizado pela [OPAM](https://www.karateopam.com.br/) no sábado, 28 de novembro.",
     },
     { h2: "O que será ensinado" },
     {
@@ -83,7 +83,7 @@ const firstAidCourse: Post = {
     },
     { h2: "Conheça a OPAM" },
     {
-      p: "O curso é uma realização da OPAM, a Organização Paulista de Artes Marciais, que também é responsável pelo CODEC. Todos os detalhes estão no post original, no site do Karatê OPAM.",
+      p: "O curso é uma realização da [OPAM](https://www.karateopam.com.br/), a Organização Paulista de Artes Marciais, que também é responsável pelo CODEC. Todos os detalhes estão no post original, no site do Karatê OPAM.",
     },
     {
       links: [
@@ -99,7 +99,7 @@ const firstAidCourse: Post = {
       },
     },
     {
-      p: "A divulgação do curso nos sites da OPAM e do CODEC foi feita em parceria com o Grupo Lake.",
+      p: "A divulgação do curso nos sites da [OPAM](https://www.karateopam.com.br/) e do CODEC foi feita em parceria com o Grupo Lake.",
     },
     { links: [{ label: "Grupo Lake", href: GRUPO_LAKE_URL }] },
   ],
