@@ -12,6 +12,7 @@ import {
   type PostBlock,
 } from "@/data/posts";
 import { EVENT_NAME, SITE_URL } from "@/lib/config";
+import { RichText } from "@/components/ui/RichText";
 import {
   Container,
   Eyebrow,
@@ -67,7 +68,7 @@ function Block({ block }: { block: PostBlock }) {
   if ("p" in block) {
     return (
       <p className="mt-4 text-[clamp(17px,1.9vw,19px)] leading-[1.6] text-ink-soft text-pretty">
-        {block.p}
+        <RichText text={block.p} linkClassName={bodyLink} />
       </p>
     );
   }
