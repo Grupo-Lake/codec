@@ -46,8 +46,8 @@ export function Footer() {
           </span>
           <span>
             Powered by{" "}
-            <ExternalLink href="https://hastydev.com.br" className={link}>
-              HASTYDEV
+            <ExternalLink href="https://grupolake.com.br" className={link}>
+              Grupo Lake
             </ExternalLink>
           </span>
         </div>
