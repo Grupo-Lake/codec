@@ -27,6 +27,7 @@ export function Footer() {
           <div className={col}>
             <span className={head}>Mais</span>
             <a href="/galeria" className={link}>Galeria</a>
+            <Link href="/blog" className={link}>Blog</Link>
             <Link href="/#brinquedo" className={link}>Ação solidária</Link>
             <Link href="/#proxima-edicao" className={link}>Próxima edição</Link>
           </div>
@@ -45,8 +46,8 @@ export function Footer() {
           </span>
           <span>
             Powered by{" "}
-            <ExternalLink href="https://hastydev.com.br" className={link}>
-              HASTYDEV
+            <ExternalLink href="https://grupolake.com.br" className={link}>
+              Grupo Lake
             </ExternalLink>
           </span>
         </div>

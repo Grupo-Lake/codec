@@ -13,6 +13,7 @@ const links = [
   { href: "/#organizadores", label: "Organização" },
   { href: "/#local", label: "Locais" },
   { href: "/#apoiadores", label: "Parceiros" },
+  { href: "/blog", label: "Blog" },
 ];
 
 export function Header() {
